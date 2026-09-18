@@ -10,7 +10,7 @@ env:
   APP_NAME: "Nap Pro"
   PACKAGE_NAME: "com.nappro.app"
   # Replace with the actual AdMob App ID for Nap Pro if different
-  ADMOB_APP_ID: "ca-app-pub-1118823918279022~8410967279" 
+  ADMOB_APP_ID: "ca-app-pub-1118823918279022~9892493348" 
 
 jobs:
   build:
