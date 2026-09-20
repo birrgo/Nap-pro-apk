@@ -297,7 +297,7 @@
     <!-- FULL SCREEN SPLASH SCREEN OVERLAY -->
     <div id="appSplashOverlay">
         <div class="splash-image-container">
-            <img src="s1.png" alt="Loading Hali Pro..." onerror="this.style.display='none'">
+            <img src="s1.png" alt="Loading Nap Pro..." onerror="this.style.display='none'">
         </div>
         <div class="splash-spinner"></div>
     </div>
@@ -337,7 +337,7 @@
                 <button type="button" class="menu-action-btn" id="openMenuIframeBtn" style="background:none; border:none; cursor:pointer; color:inherit; padding:0; display:flex; align-items:center; justify-content:center;">
                     <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
                 </button>
-                <h1 class="header-title-text">What's new?</h1>
+                <h1 class="header-title-text">Nap Pro</h1>
             </div>
             <div class="header-search-pill" id="openSearchBtn">
                 <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
@@ -813,7 +813,7 @@
                 Object.keys(dataObj).forEach(key => {
                     const item = dataObj[key];
                     if (typeof item === "object" && item !== null) {
-                        let resolvedCategory = (item.category || defaultCat).replace(/Shikela/gi, "Hali Pro");
+                        let resolvedCategory = (item.category || defaultCat).replace(/Shikela/gi, "Nap Pro");
                         localCachedBroadcasts.push({ id: key, ...item, title: item.title || item.newsTitle || resolvedCategory, category: resolvedCategory, resolvedTimestamp: extractValidTimestamp(item) });
                     }
                 });
